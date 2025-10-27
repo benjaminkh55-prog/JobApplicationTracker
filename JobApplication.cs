@@ -14,7 +14,7 @@ namespace JobApplicationTracker
 
         internal bool GetSummary()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"{CompanyName} - {PositionTitle} - {Status} - {ApplicationDate.ToShortDateString()} - {SalaryExpectation} kr");
         }
 
         public enum ApplicationStatus
@@ -52,3 +52,4 @@ namespace JobApplicationTracker
 
     }
 }
+
